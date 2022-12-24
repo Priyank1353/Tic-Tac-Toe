@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P.P.P Fitness Club</title>
+
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CS/style.css">
+<style>
+    /* CSS reset */
+    body {
+        font-family: 'Roboto Slab', serif;
+        color: white;
+        margin: 0px;
+        padding: 2px;
+        background: url('https://media.istockphoto.com/photos/gym-background-fitness-weight-equipment-on-empty-dark-floor-picture-id1213615970?k=6&m=1213615970&s=612x612&w=0&h=v9tA0BNtp_OMDasDb2PwmYDh0NmTK91pY3tMLvxt8LI=');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .navigation {
+        background-color: #372b26;
+        margin: 3px;
+        border-radius: 7px;
+    }
+
+    .left {
+        position: absolute;
+        left: 28px;
+        top: 8px;
+        display: inline-block;
+
+        text-align: center;
+        font-size: 13px;
+        color: #ead5c3;
+    }
+
+    .left img {
+        position: absolute;
+        right: 25px;
+        width: 52px;
+        margin: center;
+    }
+
+    .mid {
+
+        display: inline-block;
+        width: 40%;
+        margin: 12px 240px;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 20px;
+        top: 28px;
+        display: inline-block;
+        
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+        padding: 0px 6px;
+        font-size: 17px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover {
+
+        background-color: #c48e62;
+    }
+
+    .container {
+        color: black;
+        margin: 61px 48px;
+        padding: 44px;
+        width: 46%;
+        border-radius: 23px;
+        border: 2px solid black;
+    }
+   
+    .form-group input{
+        margin: 0px;
+        text-align: center;
+        display: block;
+        width: 172px;
+        padding: 4px;
+        border-radius: 12px;
+        font-weight: bold;
+        
+    }
+    .sub{
+        text-align: center;
+        display: inline-block;
+        width: 81px;
+        padding: 3px;
+        border-radius: 10px;
+        font-weight: bold;
+        background-color:#ebd8c8;
+        border-color:#c39865;
+    }
+    h4{
+        display: inline-block;
+    }
+    
+    
+    .right button{
+        text-decoration: none;
+        border: 2px solid #5a2f0d;
+        
+    }
+    .right input{
+        background-color: white;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        border-radius: 7px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <!-- Left box for logo -->
+            <div class="left">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_pExIzaJTQZfdYiyae5Iw2j7fYTRj3Gg0Hw&usqp=CAU"
+                    alt="" class="img2">
+                <br>
+                <br>
+                <br>
+
+                Soni Gym Corner
+            </div>
+
+            <!-- mid box for nevbar -->
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Fitess center</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+
+            <!-- right box for buttons -->
+            <div class="right">
+                <input type="text" name="search" id="search" placeholder="search this website">
+                <button class="btn">Ok</button>
+               
+ 
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Join Soni Gym corner</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+               <h4>Name:</h4> <input type="text" name="Name">
+               <br>
+               <h4>Age:</h4> <input type="number" name="my age">
+            </div>
+            <input type="submit" value="submit" class="sub">
+            <input type="reset" value="Reset now" class="sub">
+        </form>
+    </div>
+</body>
+
+</html>

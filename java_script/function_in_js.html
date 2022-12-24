@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function in  javascipt</title>
+</head>
+<body>
+    <div class="container">
+        <h1> This is a container</h1>
+    </div>
+    <script>
+        console.log("This is tutorial of functions in javascipt")
+        
+        // ffunction defination
+
+
+        function greet(name, greetText){
+            let name = "Name";//<-- this name can't do anything of globle name
+            console.log(greetText +name);
+            console.log(name + " is a good boy");
+        }
+
+
+        let name = " Priyank";
+        let name2 = " princy";
+        let name3 = " Himanshu";
+        let name4 = " shubham";
+        let name5 = " Rajkundra";
+        let greetText = " Good morning";
+        
+        // function calls
+
+
+        greet(name , greetText);
+        // greet(name1);
+        // greet(name2 , greetText);
+        console.log(greetText + name2);
+        let replac = (name2 + " is a good boy").replace('boy', 'girl');
+        console.log(replac);
+        greet(name3 , greetText);
+        greet(name4 , greetText);
+        greet(name5 , greetText);
+
+    </script>
+</body>
+</html>

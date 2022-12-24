@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings and Strings Method</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique debitis iure inventore ipsam sequi
+            veniam, facilis quos, culpa voluptas voluptatem cum, hic maxime ea ab error sit. Possimus, repudiandae sit?
+            Repellat fuga exercitationem accusamus?
+        </p>
+        <p id="demo">
+
+        </p>
+
+        <!-- Two methods to Break long code lines -->
+
+        <script>
+            document.getElementById("demo").innerHTML =
+                "Hello Dolly!";
+        </script>
+
+        <script>
+            document.getElementById("demo").innerHTML = "Hello " +
+                "Dolly!";
+        </script>
+
+        <!-- Stirngs can be objects -->
+
+        <p>
+            String can be object.
+        </p>
+        <p id="demo1">
+
+        </p>
+        <script>
+            let x = "priyank";
+            let y = new String("priyank");
+
+            document.getElementById("demo1").innerHTML = typeof x + "<br>" + typeof b;
+        </script>
+
+        <!-- Check eigther strings are same or not -->
+
+        <p>
+            Strings are same or not?
+        </p>
+        <p id="demo2">
+
+        </p>
+
+        <script>
+            let x1 = "soni";
+            let y1 = new String("soni");
+
+            document.getElementById("demo2").innerHTML = (x1 == y1);
+            //returns true
+        </script>
+
+        <!-- To check equility of datatypes of two veriables -->
+
+        <P>
+            CHECK DATATYPES OF STRINGS EQUAL OR NOT
+        </P>
+        <p id="demo3">
+
+        </p>
+        <script>
+            let x2 = "mahajan";
+            let y2 = new String("mahajan");
+
+            document.getElementById("demo3").innerHTML = (x2 === y2);
+        </script>
+
+        <!-- Extracting string methods -->
+
+        <p>
+            Slice() Method
+        </p>
+        <p id="demo4">
+
+        </p>
+
+        <script>
+            let str = "Apple, Banana, Kiwi";
+            document.getElementById("demo4").innerHTML = str.slice(7, 13);
+            // returns banana
+            // document.getElementById("demo4").innerHTML = str.slice(-12, -6); 
+            // also returns banana
+
+        </script>
+
+        <p>
+            substr methods
+        </p>
+        <p id="demo5">
+
+        </p>
+        <script>
+            let ss = "Apple, Banana, Kiwi";
+            document.getElementById("demo5").innerHTML = str.substr(4, 3);
+            // Here 4 denotes 4th character and 3 denotes length from 4th character
+        </script>
+
+        <p>
+            substring methods
+        </p>
+        <p id="demo5">
+
+        </p>
+        <script>
+            let str1 = "Apple, Banana, Kiwi";
+            document.getElementById("demo5").innerHTML = str.substring(7, 13);
+            // work substring is same as slice but substring can not get negetive values
+
+        </script>
+
+        <!-- To replace a word from string -->
+        <p>
+            Replace string and add samuh of chars
+        </p>
+        <p id="demo6">
+            
+        </p>
+        <script>
+            let strin = "This is a string";
+            let replaced = strin.replace('string', 'samuh of chars');
+            document.getElementById("demo6").innerHTML = replaced;
+        </script>
+    </div>
+    <script>
+        var string = "Thi's"; // or we can use single cotation
+        console.log(string);
+        var name = "Harry"
+        var channel = 'Code with harrry';
+        var message = "Harry is a good teacher "
+        var temp = `${name} is a nice person. `;
+        console.log(string + name + message)
+    </script>
+</body>
+
+</html>

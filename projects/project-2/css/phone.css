@@ -1,0 +1,40 @@
+body{
+    /* background-color: red; */
+}
+
+/* Navigations */
+#navbar{
+    flex-direction: column;
+}
+/* Home */
+#home{
+    height: 64px;
+    
+}
+#home p{
+    font-size: 13px;
+}
+#home::before{
+    height: 280px;
+}
+
+/* Services */
+#services{
+    flex-direction: column;
+}
+#services .box{
+    
+}
+/* Client */
+#clients{
+    overflow: hidden;
+}
+/* contact us */
+
+/* footer */
+
+/* utility  classes */
+
+.primary{
+    font-size: 26px;
+}

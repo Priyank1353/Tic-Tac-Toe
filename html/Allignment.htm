@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid rebeccapurple;
+            margin: auto;
+            background-color: rgb(250, 244, 166);
+
+        }
+
+        .item {
+
+            border: 2px solid;
+            margin: 12px 3px;
+            padding: 12px 12px;
+            background-color: rgb(173, 186, 230);
+        }
+
+        #fruits {
+            width: 49.3%;
+            float: left;
+            margin-right: 2px;
+        }
+
+        #computer {
+            width: 49.3%;
+            float: right;
+        }
+
+        #stationary {
+            width: 99.3%;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>My Store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit libero, modi, est, blanditiis eveniet vel
+                deleniti magnam excepturi incidunt quam nihil aliquid quo ea qui itaque a in mollitia corrupti.
+            </p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit libero, modi, est, blanditiis eveniet vel
+                deleniti magnam excepturi incidunt quam nihil aliquid quo ea qui itaque a in mollitia corrupti.
+            </p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit libero, modi, est, blanditiis eveniet vel
+                deleniti magnam excepturi incidunt quam nihil aliquid quo ea qui itaque a in mollitia corrupti.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
